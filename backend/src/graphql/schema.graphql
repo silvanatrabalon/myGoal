@@ -1,3 +1,16 @@
 type Query{
   greet: String!
+  task: [Task!] #return a list of tasks # with ! we are defined that the tasks always has to come inside of a list
 }
+
+type Mutation {
+  createTask(title: String!, content: String, author: String!): Task #create and return a Task with these params
+}
+
+type Task {
+  _id: ID! #prop comming from mongoDB #required
+  title: String! #required
+  content: String
+  author: String! #required
+}
+
