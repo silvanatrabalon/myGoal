@@ -9,6 +9,7 @@ import {ApolloProvider} from "@apollo/react-hooks";
 const client = new ApolloClient({
   uri: 'http://localhost:3200'
 })
+
 ReactDOM.render(
   <React.StrictMode>
     <ApolloProvider client={client}>
