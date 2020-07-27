@@ -8,7 +8,6 @@ const Query = {
   task: async () => {
     return await Task.find()
   }
-
 }
 
 export default Query;

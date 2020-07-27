@@ -5,6 +5,7 @@ type Query{
 
 type Mutation {
   createTask(title: String!, content: String, author: String!): Task #create and return a Task with these params
+  removeTask(_id: String!): _id
 }
 
 type Task {
