@@ -26,10 +26,10 @@ const TaskForm = () => {
         <div className="card">
           <div className="card-body">
             <form onSubmit={
-                e => {
+                async e => {
                   e.preventDefault();
-                  console.log(title)
-                  createTask({variables: {title, content, author}})
+                  await createTask({variables: {title, content, author}})
+                  window.location.href="/" //we can use the router too
                 }
               } >
               <div className="form-group">
