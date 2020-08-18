@@ -39,6 +39,9 @@ Guide Step By Step:
 
 ----------
 
+[Slide - Presentation](https://docs.google.com/presentation/d/1iQtwIGcUWUUMOBmBXh4vJyx43GqpcVFofECnxYz7rfk/edit?usp=sharing)
+----------
+
 
 > **Note:** This is not the end of the readme, I need to complete this when I end with all the 3 of 3 goals in better me.
 
