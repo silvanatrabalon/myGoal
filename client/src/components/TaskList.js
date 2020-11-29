@@ -14,7 +14,7 @@ const GET_TASKS = gql`
 `;
 
 const TaskList = () => {
-  const {loading, error, data} = useQuery(GET_TASKS)
+  const {loading, error, data} = useQuery(GET_TASKS) //exec query just when has to render the component
   if (loading) return <p>Loading tasks...</p>
   if (error) return <p>Error</p>
   return(
