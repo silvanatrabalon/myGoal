@@ -12,7 +12,9 @@ $ npm run dev
 ```
 ### Step by Step Guide
 [1 BackEnd Project Settings and first execution](https://github.com/silvanatrabalon/myGoal/wiki/1---BackEnd---Project-Settings-and-first-execution)
+
 [2 MongoDB Settings & DB connection](https://github.com/silvanatrabalon/myGoal/wiki/2-MongoDB-Settings-&-DB-connection)
+
 [3 Models y Schemas (Endpoints)](https://github.com/silvanatrabalon/myGoal/wiki/3-Models-y-Schemas-(Endpoints))
 ### Tech Talk & FeedBack
 [1st Goal Presentation](https://docs.google.com/presentation/d/1iQtwIGcUWUUMOBmBXh4vJyx43GqpcVFofECnxYz7rfk/edit?usp=sharing)
