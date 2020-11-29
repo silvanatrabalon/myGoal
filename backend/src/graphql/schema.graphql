@@ -1,15 +1,16 @@
 type Query{
   greet: String!
   task: [Task!] #return a list of tasks # with ! we are defined that the tasks always has to come inside of a list
+  #example: [Task!]! always has to return a list, the first time will be empty
 }
 
 type Mutation {
-  createTask(title: String!, content: String, author: String!): Task #create and return a Task with these params
+  createTask(title: String!, content: String, author: String!): Task #create and return a Task with these params , if we put Task! and for example the _id already exist, the response is a null, and this it's not going to work fine
 }
 
 type Task {
   _id: ID! #prop comming from mongoDB #required
-  title: String! #required
+  title: String! #required, the query always going to return this
   content: String
   author: String! #required
 }
