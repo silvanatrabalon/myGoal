@@ -24,6 +24,7 @@ $ npm run dev
 [========]
 
 # React.js
+[![Architecture](https://i.ibb.co/nrn5MCp/Diagram.jpg "Architecture")](https://i.ibb.co/nrn5MCp/Diagram.jpg "Architecture")
 ## Installation of FrontEnd dependecies
 Install the dependencies and devDependencies and start.
 ```sh
