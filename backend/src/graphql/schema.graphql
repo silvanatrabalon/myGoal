@@ -6,7 +6,7 @@ type Query{
 
 type Mutation {
   createTask(title: String!, content: String, author: String!): Task #create and return a Task with these params , if we put Task! and for example the _id already exist, the response is a null, and this it's not going to work fine
-  removeTask(_id: String!): _id
+  removeTask(_id: String!): ID
 }
 
 type Task {
