@@ -14,7 +14,11 @@ $ npm run dev
 [From scratch](https://docs.google.com/document/d/15LVJJMO9CX8jvwFPXCFySMggN3Mq1yR71hL1rBYq9QU/edit?usp=sharing)
 ### Tech Talk & FeedBack
 [1st Goal Presentation](https://docs.google.com/presentation/d/1iQtwIGcUWUUMOBmBXh4vJyx43GqpcVFofECnxYz7rfk/edit?usp=sharing)
+
 [![Feed](https://i.ibb.co/gj8ytZx/feed.jpg "Feed")](https://i.ibb.co/gj8ytZx/feed.jpg "Feed")
+
+[========]
+
 # React.js
 ## Installation of FrontEnd dependecies
 Install the dependencies and devDependencies and start.
