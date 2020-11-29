@@ -26,25 +26,29 @@ const TaskList = () => {
   if (error) return <p>Error</p>
 
   return(
-    <div className="row">
-      <div className="col-md-6 offset-md-3">
+    <div className="card-columns">
+      <div className="">
         {
           data.task.map(({_id, title, content, author}) => (
-             <div key={_id} className="card m-2">
-               <div className="card-body">
+              <div key={_id} className="card m-3" style={{maxWidth: '18rem'}}>
                <form onSubmit={
-                  async e => {
-                    e.preventDefault();
+                 async e => {
+                   e.preventDefault();
                     await removeTask({variables: {_id}})
                     window.location.href="/" //we can use the router too
                   }
                 } >
-                  <button className="btn btn-danger float-right btn-sm" data-dismiss="modal">Remove</button>
+                  <button className="btn btn-danger float-right btn-sm mt-1 mr-1" data-dismiss="modal">Remove</button>
                 </form>
-                <h4>{title}</h4>
-                <p>{content}</p>
-                <p>{author}</p>
-               </div>
+              <div className="card-header">{title}</div>
+              <div className="card-body">
+                <p className="card-text">{content}</p>
+                <p class="card-text text-right">
+                  <small class="text-muted">
+                    {author}
+                  </small>
+                </p>
+              </div>
              </div>
           ))
         }
