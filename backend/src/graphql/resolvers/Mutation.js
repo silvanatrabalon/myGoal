@@ -8,7 +8,8 @@ const Mutation = {
     return await newTask.save() //all the operations on bd are async, the return is the new task
   },
   removeTask: async (_, {_id}) => { //ignore parent with _
-    return await Task.findByIdAndDelete(_id)  //delete from mongo db
+    await Task.findByIdAndDelete(_id)  //delete from mongo db
+    return 'removed'
   }
 };
 
