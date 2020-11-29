@@ -21,8 +21,6 @@ $ npm run dev
 
 [![Feed](https://i.ibb.co/gj8ytZx/feed.jpg "Feed")](https://i.ibb.co/gj8ytZx/feed.jpg "Feed")
 
-[========]
-
 # React.js
 [![Architecture](https://i.ibb.co/nrn5MCp/Diagram.jpg "Architecture")](https://i.ibb.co/nrn5MCp/Diagram.jpg "Architecture")
 ## Installation of FrontEnd dependecies
@@ -38,4 +36,4 @@ $ npm start
 
 ### Tech Talk
 
-[2nd Goal Presentation](https://docs.google.com/presentation/d/1iQtwIGcUWUUMOBmBXh4vJyx43GqpcVFofECnxYz7rfk/edit?usp=sharing)
+[2nd Goal Presentation](https://docs.google.com/presentation/d/15H9VeuI5mhU0yxHp1gFvPUJev0HWQztz00SjOVYeO9s/edit?usp=sharing)
